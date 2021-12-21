@@ -1,0 +1,43 @@
+Dec-21 17:41:05.255 [main] DEBUG nextflow.cli.Launcher - $> nextflow run test.nf
+Dec-21 17:41:05.610 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 21.04.1
+Dec-21 17:41:05.727 [main] INFO  nextflow.cli.CmdRun - Launching `test.nf` [chaotic_panini] - revision: e92feb470c
+Dec-21 17:41:05.996 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; plugins-dir=/home/shaneg/.nextflow/plugins
+Dec-21 17:41:06.000 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Dec-21 17:41:06.006 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins local root: .nextflow/plr/empty
+Dec-21 17:41:06.027 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Dec-21 17:41:06.029 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Dec-21 17:41:06.039 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+Dec-21 17:41:06.072 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Dec-21 17:41:06.299 [main] DEBUG nextflow.Session - Session uuid: bf2e0057-db5d-4c32-ab53-9c84e51c4daf
+Dec-21 17:41:06.299 [main] DEBUG nextflow.Session - Run name: chaotic_panini
+Dec-21 17:41:06.305 [main] DEBUG nextflow.Session - Executor pool size: 4
+Dec-21 17:41:06.370 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 21.04.1 build 5556
+  Created: 14-05-2021 15:20 UTC (16:20 IST)
+  System: Linux 5.11.0-43-generic
+  Runtime: Groovy 3.0.7 on OpenJDK 64-Bit Server VM 1.8.0_152-release-1056-b12
+  Encoding: UTF-8 (UTF-8)
+  Process: 14636@shaneg [127.0.1.1]
+  CPUs: 4 - Mem: 5.6 GB (1.1 GB) - Swap: 2 GB (2 GB)
+Dec-21 17:41:06.470 [main] DEBUG nextflow.Session - Work-dir: /home/shaneg/anaconda3/learn/work [ext2/ext3]
+Dec-21 17:41:06.471 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /home/shaneg/anaconda3/learn/bin
+Dec-21 17:41:06.545 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Dec-21 17:41:06.593 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Dec-21 17:41:07.558 [main] DEBUG nextflow.Session - Session start invoked
+Dec-21 17:41:09.919 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Dec-21 17:41:09.952 [main] DEBUG nextflow.Session - Workflow process names [dsl1]: TEST
+Dec-21 17:41:09.961 [main] INFO  nextflow.script.BaseScript - 6
+Dec-21 17:41:10.138 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Dec-21 17:41:10.138 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Dec-21 17:41:10.149 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+Dec-21 17:41:10.175 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=4; memory=5.6 GB; capacity=4; pollInterval=100ms; dumpInterval=5m
+Dec-21 17:41:10.648 [main] DEBUG nextflow.script.ScriptRunner - > Await termination 
+Dec-21 17:41:10.649 [main] DEBUG nextflow.Session - Session await
+Dec-21 17:41:11.146 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Dec-21 17:41:11.158 [Task submitter] INFO  nextflow.Session - [f8/64e15b] Submitted process > TEST
+Dec-21 17:41:11.262 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: TEST; status: COMPLETED; exit: 0; error: -; workDir: /home/shaneg/anaconda3/learn/work/f8/64e15b7ccc9ac423ede74bfaca0e59]
+Dec-21 17:41:11.293 [main] DEBUG nextflow.Session - Session await > all process finished
+Dec-21 17:41:11.296 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Dec-21 17:41:11.330 [main] DEBUG nextflow.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=1; failedCount=0; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=31ms; failedDuration=0ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=1; peakCpus=1; peakMemory=0; ]
+Dec-21 17:41:11.577 [main] DEBUG nextflow.CacheDB - Closing CacheDB done
+Dec-21 17:41:11.641 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

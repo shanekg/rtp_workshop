@@ -1,0 +1,35 @@
+Dec-21 19:13:57.883 [main] DEBUG nextflow.cli.Launcher - $> nextflow run main.nf
+Dec-21 19:13:58.215 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 21.04.1
+Dec-21 19:13:58.283 [main] INFO  nextflow.cli.CmdRun - Launching `main.nf` [tiny_spence] - revision: 512836db35
+Dec-21 19:13:58.510 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; plugins-dir=/home/shaneg/.nextflow/plugins
+Dec-21 19:13:58.513 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Dec-21 19:13:58.520 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins local root: .nextflow/plr/empty
+Dec-21 19:13:58.543 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Dec-21 19:13:58.546 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Dec-21 19:13:58.557 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+Dec-21 19:13:58.587 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Dec-21 19:13:58.745 [main] DEBUG nextflow.Session - Session uuid: 3cca96c6-1551-4cf1-a66c-2224cc34a35e
+Dec-21 19:13:58.745 [main] DEBUG nextflow.Session - Run name: tiny_spence
+Dec-21 19:13:58.750 [main] DEBUG nextflow.Session - Executor pool size: 4
+Dec-21 19:13:58.788 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 21.04.1 build 5556
+  Created: 14-05-2021 15:20 UTC (16:20 IST)
+  System: Linux 5.11.0-43-generic
+  Runtime: Groovy 3.0.7 on OpenJDK 64-Bit Server VM 1.8.0_152-release-1056-b12
+  Encoding: UTF-8 (UTF-8)
+  Process: 3940@shaneg [127.0.1.1]
+  CPUs: 4 - Mem: 5.6 GB (2.4 GB) - Swap: 2 GB (2 GB)
+Dec-21 19:13:58.852 [main] DEBUG nextflow.Session - Work-dir: /home/shaneg/anaconda3/learn/work [ext2/ext3]
+Dec-21 19:13:58.853 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /home/shaneg/anaconda3/learn/bin
+Dec-21 19:13:58.884 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Dec-21 19:13:58.925 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Dec-21 19:13:59.673 [main] DEBUG nextflow.Session - Session start invoked
+Dec-21 19:14:01.309 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Dec-21 19:14:01.381 [main] DEBUG nextflow.Session - Workflow process names [dsl1]: 
+Dec-21 19:14:01.688 [main] DEBUG nextflow.script.ScriptRunner - > Await termination 
+Dec-21 19:14:01.688 [main] DEBUG nextflow.Session - Session await
+Dec-21 19:14:01.688 [main] DEBUG nextflow.Session - Session await > all process finished
+Dec-21 19:14:01.688 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Dec-21 19:14:01.728 [main] DEBUG nextflow.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=0; failedCount=0; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=0ms; failedDuration=0ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=0; peakCpus=0; peakMemory=0; ]
+Dec-21 19:14:01.930 [main] DEBUG nextflow.CacheDB - Closing CacheDB done
+Dec-21 19:14:01.980 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

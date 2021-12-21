@@ -1,0 +1,52 @@
+Dec-21 19:06:17.214 [main] DEBUG nextflow.cli.Launcher - $> nextflow run main.nf
+Dec-21 19:06:17.659 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 21.04.1
+Dec-21 19:06:17.766 [main] INFO  nextflow.cli.CmdRun - Launching `main.nf` [sad_bernard] - revision: d1f17d0854
+Dec-21 19:06:18.005 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; plugins-dir=/home/shaneg/.nextflow/plugins
+Dec-21 19:06:18.009 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Dec-21 19:06:18.014 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins local root: .nextflow/plr/empty
+Dec-21 19:06:18.044 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Dec-21 19:06:18.046 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Dec-21 19:06:18.054 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+Dec-21 19:06:18.097 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Dec-21 19:06:18.285 [main] DEBUG nextflow.Session - Session uuid: 96ef3197-a9b6-48eb-858d-f2568a3cbfdf
+Dec-21 19:06:18.286 [main] DEBUG nextflow.Session - Run name: sad_bernard
+Dec-21 19:06:18.291 [main] DEBUG nextflow.Session - Executor pool size: 4
+Dec-21 19:06:18.384 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 21.04.1 build 5556
+  Created: 14-05-2021 15:20 UTC (16:20 IST)
+  System: Linux 5.11.0-43-generic
+  Runtime: Groovy 3.0.7 on OpenJDK 64-Bit Server VM 1.8.0_152-release-1056-b12
+  Encoding: UTF-8 (UTF-8)
+  Process: 3651@shaneg [127.0.1.1]
+  CPUs: 4 - Mem: 5.6 GB (2.5 GB) - Swap: 2 GB (2 GB)
+Dec-21 19:06:18.524 [main] DEBUG nextflow.Session - Work-dir: /home/shaneg/anaconda3/learn/work [ext2/ext3]
+Dec-21 19:06:18.525 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /home/shaneg/anaconda3/learn/bin
+Dec-21 19:06:18.648 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Dec-21 19:06:18.698 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Dec-21 19:06:19.740 [main] DEBUG nextflow.Session - Session start invoked
+Dec-21 19:06:21.372 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Dec-21 19:06:21.422 [main] DEBUG nextflow.Session - Workflow process names [dsl1]: 
+Dec-21 19:06:21.616 [PathVisitor-1] DEBUG nextflow.file.PathVisitor - files for syntax: glob; folder: test-datasets/fastq/; pattern: *_{1,2}.fastq.gz; options: [checkIfExists:true]
+Dec-21 19:06:21.662 [PathVisitor-1] DEBUG nextflow.file.PathVisitor - No such file: test-datasets/fastq/ -- Skipping visit
+Dec-21 19:06:21.682 [PathVisitor-1] ERROR nextflow.Channel - No files match pattern `*_{1,2}.fastq.gz` at path: test-datasets/fastq/
+java.lang.IllegalArgumentException: No files match pattern `*_{1,2}.fastq.gz` at path: test-datasets/fastq/
+	at nextflow.file.PathVisitor.pathImpl(PathVisitor.groovy:173)
+	at nextflow.file.PathVisitor.applyGlobPattern0(PathVisitor.groovy:131)
+	at nextflow.file.PathVisitor.apply(PathVisitor.groovy:69)
+	at nextflow.file.PathVisitor$_applyAsync_closure1.doCall(PathVisitor.groovy:78)
+	at nextflow.file.PathVisitor$_applyAsync_closure1.call(PathVisitor.groovy)
+	at groovy.lang.Closure.run(Closure.java:493)
+	at java.util.concurrent.CompletableFuture.uniRun(CompletableFuture.java:705)
+	at java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:687)
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:442)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Dec-21 19:06:21.723 [PathVisitor-1] DEBUG nextflow.Session - Session aborted -- Cause: No files match pattern `*_{1,2}.fastq.gz` at path: test-datasets/fastq/
+Dec-21 19:06:21.891 [main] DEBUG nextflow.script.ScriptRunner - > Await termination 
+Dec-21 19:06:21.891 [main] DEBUG nextflow.Session - Session await
+Dec-21 19:06:21.892 [main] DEBUG nextflow.Session - Session await > all process finished
+Dec-21 19:06:21.892 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Dec-21 19:06:21.907 [main] DEBUG nextflow.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=0; failedCount=0; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=0ms; failedDuration=0ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=0; peakCpus=0; peakMemory=0; ]
+Dec-21 19:06:21.936 [main] DEBUG nextflow.CacheDB - Closing CacheDB done
+Dec-21 19:06:21.973 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

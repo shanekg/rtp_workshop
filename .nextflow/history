@@ -1,0 +1,6 @@
+2021-12-21 17:41:06	5.6s	chaotic_panini	OK	e92feb470c93b120f6b79fc60d6c34cc	bf2e0057-db5d-4c32-ab53-9c84e51c4daf	nextflow run test.nf
+2021-12-21 17:49:28	3.9s	crazy_lamarck	ERR	d1f17d0854fb957b1cd1bccae9d5dcd4	ddddf894-194a-4f7d-8ba1-a708e072d31f	nextflow run main.nf
+2021-12-21 19:06:18	3.9s	sad_bernard	ERR	d1f17d0854fb957b1cd1bccae9d5dcd4	96ef3197-a9b6-48eb-858d-f2568a3cbfdf	nextflow run main.nf
+2021-12-21 19:09:35	3.2s	shrivelled_curran	OK	d1f17d0854fb957b1cd1bccae9d5dcd4	ea8a982e-c732-4211-9bde-ab3c1ac90528	nextflow run main.nf
+2021-12-21 19:12:15	3.5s	disturbed_khorana	OK	57daaec1cb66c642768b563218015cc1	8243a5a2-46a3-435c-8520-baf9a769baba	nextflow run main.nf
+2021-12-21 19:13:58	3.9s	tiny_spence	OK	512836db3571517f247952c19ee0e6e3	3cca96c6-1551-4cf1-a66c-2224cc34a35e	nextflow run main.nf
